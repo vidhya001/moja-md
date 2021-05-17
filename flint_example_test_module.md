@@ -1,23 +1,23 @@
 
-<h>Flint Example module</h>
+**Flint Example module**
 
-Description: The test module in Flint is the simple module used for understanding the flint module. It consists of 3 pools in which carbon flow happens from one pool to another. The simulation takes place in 60 steps and each step, we can see that the sum of carbon in all the pools adds up to the same number which must be the case according to the conservation of mass of carbon
+**Description:** The test module in Flint is the simple module used for understanding the flint module. It consists of 3 pools in which carbon flow happens from one pool to another. The simulation takes place in 60 steps and each step, we can see that the sum of carbon in all the pools adds up to the same number which must be the case according to the conservation of mass of carbon
 
 This simulation uses 2 config files: nothing but the JSON files that act as input files to the model. 
 
 It has several external dependencies 
-4 header files
+**4 header files**
 _module.base_exports
 errorscreenwriter
 libraryfactory
 timeseriestransform
-3 CPP files
+**3 CPP files**
 errorscreenwriter
 libraryfactory
 Timeseriestransform
 
 
-Point_example.json
+**Point_example.json**
 This is one of the config files which actually act as input file for our simulation model.
 It has various quantities mentioned there which acts as the parameters for the model.
 
@@ -49,7 +49,8 @@ The unit area that needs to be considered using the simulation
 
 
 The above are some of the parameters that are mentioned in the point_example.json 
-Control Flow 
+
+**Control Flow** 
 Starts with config files (2 files - point_example.json, libs.base.win.json)
 Gets the configuration for the model from logging.debug_on.conf file
 Configures the input from JSON files mentioned above (JSON2ConfigurationProvide)
@@ -67,7 +68,7 @@ Now the steps the follow in the calendar sequence occur which results in the sim
 The results of the simulation are given to the output streamer which would be displayed for us as output and also we also record the output in csv files in run_env folder        
 
 
-Results:
+**Results:**
 Simulation results
 
 Description About the simulation result:
