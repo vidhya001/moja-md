@@ -1,4 +1,5 @@
-Flint Example module
+
+<h>Flint Example module</h>
 
 Description: The test module in Flint is the simple module used for understanding the flint module. It consists of 3 pools in which carbon flow happens from one pool to another. The simulation takes place in 60 steps and each step, we can see that the sum of carbon in all the pools adds up to the same number which must be the case according to the conservation of mass of carbon
 
